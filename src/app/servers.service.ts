@@ -34,6 +34,6 @@ export class ServerService{
                         (response)=>{
                             return response.json();
                         }
-                    ).pipe();
+                    )
     }
 }
